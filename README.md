@@ -20,11 +20,11 @@ To get started with any of the workshops, follow these steps:
 
 1. **Clone the Repository**: 
     ```sh
-    git clone https://github.com/your-organization/pre-sales-hands-on-lab-workshops.git
+    git clone https://github.com/khorner/shopify-hol.git
     ```
 2. **Navigate to the Workshop Directory**: Each workshop has its own directory with all the necessary materials.
     ```sh
-    cd pre-sales-hands-on-lab-workshops/<workshop-name>
+    cd shopify-hol/<workshop-name>
     ```
 3. **Review the Prerequisites**: Ensure you have the required software and accounts set up as specified in the workshop guide.
 4. **Follow the Workshop Guide**: Open the workshop guide and follow the instructions to complete the lab.
@@ -55,4 +55,4 @@ Thank you for using our Pre-Sales Hands-On Lab Workshops! We hope these resource
 
 ---
 
-**Maintained by [Your Organization]**
+**Maintained by [Kevin Horner]**
