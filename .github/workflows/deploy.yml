@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: List directory contents
+        run: ls -la ./cli-basics
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v4.0.2
         with:
           node-version: 22
           cache: 'npm'
-      - name: List directory contents
-        run: ls -la ./cli-basics
       - name: Install npm dependencies
         run: npm install
         working-directory: ./cli-basics
