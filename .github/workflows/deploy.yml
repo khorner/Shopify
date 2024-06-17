@@ -21,8 +21,10 @@ jobs:
           cache: 'npm'
       - name: Install npm dependencies
         run: npm install
+        working-directory: ./cli-basics
       - name: Install Shopify CLI
         run: npm install -g @shopify/cli@latest
+        working-directory: ./cli-basics
       - name: Deploy
         env:
           # Token from the Partner Dashboard
@@ -31,3 +33,4 @@ jobs:
           # .env content after a deploy
           SHOPIFY_API_KEY: ${{ vars.SHOPIFY_API_KEY }}
         run: shopify app deploy -f --source-control-url "$COMMIT_URL"
+        working-directory: ./cli-basics
