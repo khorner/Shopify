@@ -3,7 +3,7 @@
 client_id = "e081670850dff3bf4bfdfed20dd5c750"
 name = "My First CLI App"
 handle = "cli-basics"
-application_url = "https://homeland-tunisia-flooring-experiencing.trycloudflare.com"
+application_url = "https://lesser-psychological-anywhere-huntington.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://homeland-tunisia-flooring-experiencing.trycloudflare.com/auth/callback",
-  "https://homeland-tunisia-flooring-experiencing.trycloudflare.com/auth/shopify/callback",
-  "https://homeland-tunisia-flooring-experiencing.trycloudflare.com/api/auth/callback"
+  "https://lesser-psychological-anywhere-huntington.trycloudflare.com/auth/callback",
+  "https://lesser-psychological-anywhere-huntington.trycloudflare.com/auth/shopify/callback",
+  "https://lesser-psychological-anywhere-huntington.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
