@@ -77,6 +77,8 @@ This lab is divided into the following sections:
 
 ## Troubleshooting and Tips
 
+[Pre-reqs: npm, Node](troubleshoot.md)
+
 - **Command Not Found**: If you encounter a `command not found` error, ensure that the Shopify CLI is installed correctly and that your PATH environment variable includes npm global packages.
 - **Authentication Issues**: Ensure that you are using the correct credentials and that you have the necessary permissions to access the store.
 - **More Help**: For more detailed information and advanced usage, refer to the [Shopify CLI Documentation](https://shopify.dev/docs/api/shopify-cli).
@@ -92,4 +94,4 @@ Congratulations! You have successfully completed the Introduction to Shopify CLI
 
 ---
 
-**Maintained by [Your Organization]**
+**Maintained by [Kevin Horner]**
