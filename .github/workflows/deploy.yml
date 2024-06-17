@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: cli-basics
+        working-directory: ./cli-basics
 
     steps:
       - uses: actions/checkout@v1
