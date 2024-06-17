@@ -14,6 +14,8 @@ jobs:
         with:
           node-version: 22
           cache: 'npm'
+      - name: List directory contents
+        run: ls -la ./cli-basics
       - name: Install npm dependencies
         run: npm install
         working-directory: ./cli-basics
